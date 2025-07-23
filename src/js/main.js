@@ -194,33 +194,7 @@ async function loadVideos() {
       `;
     }
     
-    // Load CEO video from gallery if available  
-    const ceoVideoContainer = document.querySelector('.video-gallery .video-embed-container');
-    const ceoVideo = videos.successStories?.gallery?.find(video => video.title.includes('CEO'));
-    console.log('CEO video container:', ceoVideoContainer);
-    console.log('CEO video data:', ceoVideo);
-    
-    if (ceoVideoContainer && ceoVideo?.embedCode) {
-      console.log('Loading CEO video with embed code:', ceoVideo.embedCode);
-      // Insert the embed code and style the iframe
-      ceoVideoContainer.innerHTML = ceoVideo.embedCode;
-      const iframe = ceoVideoContainer.querySelector('iframe');
-      if (iframe) {
-        iframe.style.position = 'absolute';
-        iframe.style.top = '0';
-        iframe.style.left = '0';
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.borderRadius = '8px';
-        iframe.style.border = 'none';
-      }
-    } else {
-      console.log('CEO video not found or container missing');
-      // Fallback: directly insert the video if container exists
-      if (ceoVideoContainer) {
-        ceoVideoContainer.innerHTML = '<iframe src="https://share.descript.com/embed/9zQJkrU1zgl" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; border: none;"></iframe>';
-      }
-    }
+    // CEO video is now directly embedded in HTML for reliability
   } catch (error) {
     console.error('Error loading videos:', error);
   }
