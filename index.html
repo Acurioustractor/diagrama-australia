@@ -60,7 +60,7 @@
                     <source src="/assets/videos/hero-background.mp4" type="video/mp4">
                     <source src="/assets/videos/hero-background.webm" type="video/webm">
                 </video>
-                <img class="hero-fallback-image" src="/assets/images/Spain-Diagrama-LR-101.jpg" alt="Diagrama center exterior showing modern learning environment">
+                <img class="hero-fallback-image" src="/assets/images/Spain-Diagrama-LR-101.jpg" alt="Diagrama centre exterior showing modern learning environment">
                 <div class="hero-overlay"></div>
             </div>
             
@@ -326,43 +326,63 @@
                     <div style="background: #f8fafc; border-radius: 20px; padding: 2.5rem; margin-bottom: 2rem;">
                         <h3 style="text-align: center; font-size: 1.5rem; font-weight: 600; color: #1f2937; margin-bottom: 2rem;">5-Stage Progressive Model</h3>
                         
-                        <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-bottom: 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; position: relative; margin-bottom: 2rem; overflow-x: auto; padding: 0 1rem; gap: 1rem; min-width: 100%;">
+                            <style>
+                                @media (max-width: 768px) {
+                                    .stages-container {
+                                        flex-direction: column !important;
+                                        gap: 1.5rem !important;
+                                        align-items: stretch !important;
+                                    }
+                                    .stage-progress-line {
+                                        display: none !important;
+                                    }
+                                    .stage-item {
+                                        min-width: auto !important;
+                                        width: 100% !important;
+                                        max-width: 280px !important;
+                                        margin: 0 auto !important;
+                                    }
+                                }
+                            </style>
+                            <div class="stages-container" style="display: flex; justify-content: space-between; align-items: center; position: relative; width: 100%; gap: 0.5rem;">
                             <!-- Progress Line -->
-                            <div style="position: absolute; top: 50%; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #007AFF 0%, #10B981 100%); z-index: 1;"></div>
+                            <div class="stage-progress-line" style="position: absolute; top: 50%; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #007AFF 0%, #10B981 100%); z-index: 1;"></div>
                             
                             <!-- Stage 1 -->
-                            <div style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
+                            <div class="stage-item" style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
                                 <div style="width: 40px; height: 40px; background: #007AFF; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; font-weight: 600;">1</div>
                                 <h4 style="font-size: 0.85rem; font-weight: 600; color: #1f2937; margin-bottom: 0.25rem;">Reception</h4>
                                 <p style="font-size: 0.7rem; color: #6b7280;">Assessment & Initial Support</p>
                             </div>
                             
                             <!-- Stage 2 -->
-                            <div style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
+                            <div class="stage-item" style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
                                 <div style="width: 40px; height: 40px; background: #0071E3; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; font-weight: 600;">2</div>
                                 <h4 style="font-size: 0.85rem; font-weight: 600; color: #1f2937; margin-bottom: 0.25rem;">Stabilization</h4>
                                 <p style="font-size: 0.7rem; color: #6b7280;">Building Trust & Routine</p>
                             </div>
                             
                             <!-- Stage 3 -->
-                            <div style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
+                            <div class="stage-item" style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
                                 <div style="width: 40px; height: 40px; background: #34C759; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; font-weight: 600;">3</div>
                                 <h4 style="font-size: 0.85rem; font-weight: 600; color: #1f2937; margin-bottom: 0.25rem;">Development</h4>
                                 <p style="font-size: 0.7rem; color: #6b7280;">Skills & Education Focus</p>
                             </div>
                             
                             <!-- Stage 4 -->
-                            <div style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
+                            <div class="stage-item" style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
                                 <div style="width: 40px; height: 40px; background: #10B981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; font-weight: 600;">4</div>
                                 <h4 style="font-size: 0.85rem; font-weight: 600; color: #1f2937; margin-bottom: 0.25rem;">Autonomy</h4>
                                 <p style="font-size: 0.7rem; color: #6b7280;">Independence & Responsibility</p>
                             </div>
                             
                             <!-- Stage 5 -->
-                            <div style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
+                            <div class="stage-item" style="position: relative; z-index: 2; text-align: center; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); min-width: 120px;">
                                 <div style="width: 40px; height: 40px; background: #059669; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 0.5rem; font-weight: 600;">5</div>
                                 <h4 style="font-size: 0.85rem; font-weight: 600; color: #1f2937; margin-bottom: 0.25rem;">Integration</h4>
                                 <p style="font-size: 0.7rem; color: #6b7280;">Community Reintegration</p>
+                            </div>
                             </div>
                         </div>
                     </div>
