@@ -1,0 +1,30 @@
+{
+  "title": "Diagrama Australia\nTransforming Youth Justice",
+  "subtitle": "Reducing recidivism from 80% to just 13.6%",
+  "tagline": "35 years of proven results • Zero suicides • International recognition",
+  "stats": [
+    {
+      "number": "35",
+      "label": "Years of Proven Results",
+      "description": "Established in Spain in 1991, Diagrama has consistently delivered transformative outcomes"
+    },
+    {
+      "number": "98%",
+      "label": "Program Completion Rate",
+      "description": "Nearly all young people successfully complete our comprehensive programs"
+    },
+    {
+      "number": "40,000+",
+      "label": "Young Lives Transformed",
+      "description": "Thousands of young people have rebuilt their lives through Diagrama's programs"
+    }
+  ],
+  "media": {
+    "backgroundVideo": "hero-background.mp4",
+    "fallbackImage": "Spain-Diagrama-LR-101.jpg"
+  },
+  "accessibility": {
+    "videoDescription": "Inspiring footage of young people engaged in educational and therapeutic activities",
+    "altText": "Young people participating in educational programs at Diagrama centers"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "title": "Diagrama Australia: Transforming Youth Justice",
+  "description": "An interactive presentation about transforming youth justice through proven international expertise",
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Hero Section",
+      "type": "hero",
+      "contentFile": "hero.json",
+      "mediaFiles": ["hero-background.mp4", "hero-background.jpg"],
+      "priority": 10
+    },
+    {
+      "id": "crisis",
+      "title": "The Crisis",
+      "type": "crisis",
+      "contentFile": "crisis.json",
+      "mediaFiles": ["crisis-background.jpg"],
+      "priority": 8
+    },
+    {
+      "id": "solution",
+      "title": "The Solution",
+      "type": "solution",
+      "contentFile": "solution.json",
+      "mediaFiles": ["solution-background.jpg", "spain-center.jpg"],
+      "priority": 7
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation",
+      "type": "timeline",
+      "contentFile": "implementation.json",
+      "mediaFiles": [],
+      "priority": 5
+    },
+    {
+      "id": "investment",
+      "title": "Investment",
+      "type": "investment",
+      "contentFile": "investment.json",
+      "mediaFiles": ["investment-background.jpg", "kate-bjur.jpg", "ben-knight.jpg"],
+      "priority": 6
+    }
+  ],
+  "globalContent": {
+    "navigation": "navigation.json",
+    "metadata": "metadata.json"
+  },
+  "theme": {
+    "primaryColor": "#2c3e50",
+    "secondaryColor": "#3498db",
+    "accentColor": "#f39c12"
+  },
+  "settings": {
+    "enableAnimations": true,
+    "enableLazyLoading": true,
+    "enableKeyboardNavigation": true,
+    "respectReducedMotion": true
+  }
+}
