@@ -1,0 +1,34 @@
+{
+  "successStories": {
+    "title": "9 News Australia",
+    "subtitle": "Hear from young people whose lives have been transformed",
+    "featured": {
+      "embedCode": "<iframe src=\"https://share.descript.com/embed/skpdCO5EjVb\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen></iframe>",
+      "youtubeId": "",
+      "vimeoId": "",
+      "description": "Main success story video showcasing transformed lives",
+      "poster": "/assets/images/success-stories-poster.jpg"
+    },
+    "gallery": [
+      {
+        "title": "Hear from the Diagraam CEO",
+        "youtubeId": "",
+        "vimeoId": "",
+        "embedCode": "<iframe src=\"https://share.descript.com/embed/9zQJkrU1zgl\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen></iframe>",
+        "thumbnail": "/assets/images/story-1-thumb.jpg",
+        "description": "From detention to university graduate"
+      }
+    ]
+  },
+  "methodology": {
+    "title": "The Diagrama Methodology",
+    "subtitle": "Understanding our approach to youth transformation",
+    "featured": {
+      "embedCode": "",
+      "youtubeId": "",
+      "vimeoId": "",
+      "description": "Detailed explanation of our therapeutic approach",
+      "poster": "/assets/images/methodology-poster.jpg"
+    }
+  }
+}

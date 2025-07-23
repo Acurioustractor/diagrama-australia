@@ -1,0 +1,104 @@
+{
+  "spainCenters": {
+    "title": "Our Centers in Spain",
+    "subtitle": "See the environments where transformation happens",
+    "images": [
+      {
+        "src": "/assets/images/Spain-Diagrama-LR-101.jpg",
+        "alt": "Diagrama Center Exterior View",
+        "title": "Architecture of Hope",
+        "description": "Purpose-built spaces that feel like home, not institutions - where young people can rebuild their lives with dignity",
+        "size": "large"
+      },
+      {
+        "src": "/assets/images/010425-Spain-Diagrama-14.jpg",
+        "alt": "Classroom Learning Environment",
+        "title": "Education as Liberation", 
+        "description": "Real learning happens here - university-qualified teachers helping young people discover their potential and pathways to success"
+      },
+      {
+        "src": "/assets/images/Spain-Diagrama-LR-136.jpg",
+        "alt": "Social and Recreation Areas",
+        "title": "Community Over Control",
+        "description": "Spaces designed for connection, not confinement - where therapeutic relationships flourish and healing begins"
+      },
+      {
+        "src": "/assets/images/010425-Spain-Diagrama-46.jpg", 
+        "alt": "Vocational Skills Workshop",
+        "title": "Hands-On Future Building",
+        "description": "Learning practical skills that open doors - preparing young people for independence and meaningful employment"
+      },
+      {
+        "src": "/assets/images/Spain-Diagrama-LR-28.jpg",
+        "alt": "Group Discussion and Support",
+        "title": "The Power of Belonging",
+        "description": "Young people finding their voice in circles of trust - where social educators guide growth through authentic relationships"
+      },
+      {
+        "src": "/assets/images/010425-Spain-Diagrama-50.jpg",
+        "alt": "One-on-One Mentoring Session", 
+        "title": "Individual Transformation",
+        "description": "Every young person gets personalized support - social educators who believe in potential and guide the journey to change"
+      },
+      {
+        "src": "/assets/images/Spain-Diagrama-LR-39.jpg",
+        "alt": "Therapeutic Living Spaces",
+        "title": "Healing Environments",
+        "description": "Calm, respectful spaces that promote wellbeing - designed to help young people process trauma and build resilience"
+      },
+      {
+        "src": "/assets/images/010425-Spain-Diagrama-62.jpg",
+        "alt": "Outdoor Recreation and Activities",
+        "title": "Freedom Within Structure", 
+        "description": "Outdoor programs that build confidence and connection - teaching responsibility through adventure and achievement"
+      },
+      {
+        "src": "/assets/images/Spain-Diagrama-LR-68.jpg",
+        "alt": "Interactive Learning Session",
+        "title": "Engagement Over Enforcement",
+        "description": "Dynamic learning that captures imagination - where education becomes the pathway to transformation, not punishment"
+      }
+    ]
+  },
+  "team": {
+    "title": "Australian Support Team",
+    "subtitle": "We have a core group of experts supporting the initial stages for Diagrama Australia development and world-class trustees being announced very soon. This group supports visits to Spain, initial engagement with additional supporters and strategy and communication.",
+    "members": [
+      {
+        "name": "Kate Bjur",
+        "role": "Australian Lead & Churchill Fellow",
+        "description": "Leading Australian implementation and strategic development",
+        "photo": "/assets/images/Kate Bjur.jpg",
+        "bio": "Kate is a Churchill Fellow who studied the Diagrama model extensively in Spain. She brings deep expertise in youth justice systems, having worked across government and non-profit sectors to support young people in contact with the criminal justice system. Kate leads the strategic development of Diagrama Australia and coordinates visits to Spain for Australian stakeholders."
+      },
+      {
+        "name": "Benjamin Knight",
+        "role": "Strategy & Communications Director",
+        "description": "Strategic partnerships, communications and stakeholder engagement",
+        "photo": "/assets/images/Benjamin Knight.jpg",
+        "bio": "Benjamin brings extensive experience in strategic communications, partnership development, and stakeholder engagement across government, corporate, and non-profit sectors. He leads the development of strategic partnerships and manages communications to build awareness and support for transformational youth justice reform in Australia."
+      },
+      {
+        "name": "Dr David McGuire",
+        "role": "Chief Executive, Diagrama Foundation UK",
+        "description": "Leading UK operations with doctorate in Children & Young People's Services",
+        "photo": "/assets/images/David.jpg",
+        "bio": "While studying for a teaching degree at the University of Córdoba, at age 18 David set up his own company providing health and safety services to different communities. David joined Diagrama on leaving university and spent his first five years as a Social Educator in a secure establishment, also achieving his Social Educator Degree. In 2006 he led an after-care programme helping over 400 children and young people reintegrate into society. In 2008 he moved to the UK to establish Diagrama Foundation UK and was appointed Chief Executive in 2009. David is a member of the European Society of Criminology (ESC) and European Prison Education Association (EPEA). In 2019 he was awarded his Professional Doctorate in Children & Young People's Services Leadership from the University of Bedfordshire."
+      },
+      {
+        "name": "Professor Lorana Bartels",
+        "role": "Professor of Criminology, ANU",
+        "description": "Deputy Director POLIS@ANU Centre for Social Policy Research",
+        "photo": "/assets/images/Lorana Bartels.jpg",
+        "bio": "Professor Lorana Bartels (BA LLB LLM PhD GDLP GCTE) is a Professor of Criminology and Deputy Director of POLIS@ANU: The Centre for Social Policy Research. She was previously Criminology Program Leader at ANU and Head of School of Law and Justice at University of Canberra. She has worked at the Australian Institute of Criminology, Family Court of Australia, NSW Attorney-General's Department, NSW DPP and NSW Public Defenders Office. Professor Bartels is an Adjunct Professor at University of Canberra and Tasmania, Life Member of Clare Hall Cambridge, Fellow of Australian Academy of Law and joint winner of 2018 ACT Woman Lawyer of the Year. She is a national director of the Justice Reform Initiative and member of numerous professional associations. Her publications include five books and over 125 refereed journal articles, book chapters and conference papers."
+      },
+      {
+        "name": "Olga Havnen",
+        "role": "Former CEO Danila Dilba Health Service",
+        "description": "2022 NT Australian of the Year Nominee, Indigenous health and justice advocate",
+        "photo": "/assets/images/Olga Havnen.jpeg",
+        "bio": "Olga Havnen led Danila Dilba Health Service (DDHS) to become one of the largest Aboriginal Community Controlled Health Organisations in Australia. As CEO, she provided culturally safe care for Aboriginal Australians and led COVID-19 response initiatives including respiratory clinics and vaccination centres. Olga's advocacy extends beyond health - she has advocated at the UN against law reforms that disproportionately incarcerate Indigenous young people and was part of the successful five-year battle that blocked an alcohol superstore next to Darwin's dry Indigenous communities. Olga was nominated as 2022 NT Australian of the Year for her exceptional leadership in improving health outcomes for Aboriginal Australians and her tireless advocacy for Indigenous rights and justice reform."
+      }
+    ]
+  }
+}
