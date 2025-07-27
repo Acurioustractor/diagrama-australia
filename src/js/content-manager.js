@@ -261,8 +261,8 @@ export class ContentManager {
         ]
       },
       crisis: {
-        title: "The Australian Youth Justice Crisis",
-        subtitle: "A system that fails everyone it touches",
+        title: "Australia is looking for solutions",
+        subtitle: "It's time to trial another approach",
         statistics: [
           { number: "80-96", suffix: "%", label: "Recidivism Rate in Australia" },
           { prefix: "$", number: "1500", label: "Cost per young person per day in detention" },
@@ -277,8 +277,8 @@ export class ContentManager {
             title: "Traditional Approach",
             stats: [
               { number: "80-96%", label: "Recidivism Rate", type: "negative" },
-              { number: "High", label: "Violence & Self-Harm", type: "negative" },
-              { number: "Punitive", label: "Focus on Punishment", type: "negative" }
+              { number: "Safe", label: "For Staff & Young People", type: "positive" },
+              { number: "Therapeutic", label: "Love & Boundaries", type: "positive" }
             ]
           },
           after: {
